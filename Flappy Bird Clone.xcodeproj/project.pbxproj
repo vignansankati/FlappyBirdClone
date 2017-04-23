@@ -16,6 +16,11 @@
 		51C8364C1EAC120600714F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C8364B1EAC120600714F30 /* Assets.xcassets */; };
 		51C8364F1EAC120600714F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C8364D1EAC120600714F30 /* LaunchScreen.storyboard */; };
 		51C8365A1EAC120600714F30 /* Flappy_Bird_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C836591EAC120600714F30 /* Flappy_Bird_CloneTests.swift */; };
+		51C8366A1EAC144D00714F30 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C836651EAC144D00714F30 /* bg.png */; };
+		51C8366B1EAC144D00714F30 /* flappy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C836661EAC144D00714F30 /* flappy1.png */; };
+		51C8366C1EAC144D00714F30 /* flappy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C836671EAC144D00714F30 /* flappy2.png */; };
+		51C8366D1EAC144D00714F30 /* pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C836681EAC144D00714F30 /* pipe1.png */; };
+		51C8366E1EAC144D00714F30 /* pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C836691EAC144D00714F30 /* pipe2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,11 @@
 		51C836551EAC120600714F30 /* Flappy Bird CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy Bird CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C836591EAC120600714F30 /* Flappy_Bird_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flappy_Bird_CloneTests.swift; sourceTree = "<group>"; };
 		51C8365B1EAC120600714F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C836651EAC144D00714F30 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		51C836661EAC144D00714F30 /* flappy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy1.png; sourceTree = "<group>"; };
+		51C836671EAC144D00714F30 /* flappy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy2.png; sourceTree = "<group>"; };
+		51C836681EAC144D00714F30 /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe1.png; sourceTree = "<group>"; };
+		51C836691EAC144D00714F30 /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,7 @@
 		51C8363D1EAC120600714F30 /* Flappy Bird Clone */ = {
 			isa = PBXGroup;
 			children = (
+				51C836641EAC143A00714F30 /* Images */,
 				51C8363E1EAC120600714F30 /* AppDelegate.swift */,
 				51C836401EAC120600714F30 /* GameScene.sks */,
 				51C836421EAC120600714F30 /* Actions.sks */,
@@ -103,6 +114,18 @@
 				51C8365B1EAC120600714F30 /* Info.plist */,
 			);
 			path = "Flappy Bird CloneTests";
+			sourceTree = "<group>";
+		};
+		51C836641EAC143A00714F30 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				51C836651EAC144D00714F30 /* bg.png */,
+				51C836661EAC144D00714F30 /* flappy1.png */,
+				51C836671EAC144D00714F30 /* flappy2.png */,
+				51C836681EAC144D00714F30 /* pipe1.png */,
+				51C836691EAC144D00714F30 /* pipe2.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +215,12 @@
 			files = (
 				51C8364A1EAC120600714F30 /* Main.storyboard in Resources */,
 				51C836411EAC120600714F30 /* GameScene.sks in Resources */,
+				51C8366A1EAC144D00714F30 /* bg.png in Resources */,
 				51C8364C1EAC120600714F30 /* Assets.xcassets in Resources */,
+				51C8366E1EAC144D00714F30 /* pipe2.png in Resources */,
+				51C8366C1EAC144D00714F30 /* flappy2.png in Resources */,
+				51C8366D1EAC144D00714F30 /* pipe1.png in Resources */,
+				51C8366B1EAC144D00714F30 /* flappy1.png in Resources */,
 				51C8364F1EAC120600714F30 /* LaunchScreen.storyboard in Resources */,
 				51C836431EAC120600714F30 /* Actions.sks in Resources */,
 			);
